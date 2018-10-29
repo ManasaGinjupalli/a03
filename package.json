@@ -1,25 +1,19 @@
 {
     "name": "a03",
     "version": "0.0.1",
-    "description": "Example resume website",
+    "description": "resume app",
     "main": "app.js",
-    "scripts": {
-        "start": "node app.js"
-    },
     "dependencies": {
         "express": "latest",
         "morgan": "latest",
         "body-parser": "latest",
-        "ejs": "latest",
-        "nodemailer": "latest",
-        "nodemailer-mailgun-transport": "latest",
-        "nconf": "latest"
+        "ejs": "latest"
     },
-    "author": "Denise Case",
-    "homepage": "https://github.com/profcase/a03",
+    "author": "Manasa Ginjupalli",
+    "homepage": "https://bitbucket.org/ManasaGinjupalli/a03",
     "repository": {
         "type": "git",
-        "url": "https://github.com/profcase/a03"
+        "url": "https://bitbucket.org/ManasaGinjupalli/a03"
     },
     "license": "Apache-2.0"
 }

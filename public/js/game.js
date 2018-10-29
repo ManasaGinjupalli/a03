@@ -1,6 +1,5 @@
-
 /**
- * Simple tic-tac-toe game starter. 
+ * Simple tic-tac-toe game example. 
  */
 const game = (function () {
 
@@ -28,7 +27,7 @@ const game = (function () {
         const j = await findBestMove(cellElements);
 
         // pause, then add computer's O
-        await new Promise((resolve) => setTimeout(() => resolve(), 2000));
+        await new Promise((resolve) => setTimeout(() => resolve(), 100));
         await addO(cellElements[j]);
       }
 
@@ -59,5 +58,6 @@ const game = (function () {
     headingElement.appendChild(textNode);
     cellElement.appendChild(headingElement);
   }
+ 
 
 })();
